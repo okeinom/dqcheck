@@ -1,0 +1,5 @@
+{
+  "required_columns": ["id", "amount", "name"],
+  "required_values": ["id", "name"],
+  "numeric_fields": ["amount"]
+}

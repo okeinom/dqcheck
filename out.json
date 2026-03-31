@@ -1,0 +1,20 @@
+{
+  "file": "data.csv",
+  "total_rows": 4,
+  "passed": true,
+  "errors": [
+    {
+      "check": "numeric_fields",
+      "message": "Value is not a valid integer",
+      "row": 1,
+      "column": "amount",
+      "sample": "all",
+      "severity": "Warning"
+    }
+  ],
+  "summary": {
+    "missing_required_columns": 0,
+    "missing_required_values": 0,
+    "numeric_parse_failures": 1
+  }
+}
